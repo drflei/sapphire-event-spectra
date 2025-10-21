@@ -25,16 +25,24 @@ For various return periods: 1-in-10-year, 1-in-20-year, 1-in-50-year, 1-in-100-y
 
 ## Installation
 
+### From GitHub (Recommended)
+
+```bash
+pip install git+https://github.com/drflei/sapphire-event-spectra.git
+```
+
 ### From source (development mode)
 
 ```bash
+git clone https://github.com/drflei/sapphire-event-spectra.git
 cd sapphire-event-spectra
 pip install -e .
 ```
 
-### Regular installation
+### Regular installation from source
 
 ```bash
+git clone https://github.com/drflei/sapphire-event-spectra.git
 cd sapphire-event-spectra
 pip install .
 ```
